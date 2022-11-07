@@ -1,4 +1,5 @@
-pcb/ESC_R1-backups/
 .DS_Store
+
+pcb/ESC_R1-backups/
 pcb/fp-info-cache
 pcb/*.kicad_prl
