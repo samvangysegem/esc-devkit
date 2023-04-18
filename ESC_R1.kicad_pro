@@ -365,7 +365,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "../../../../../Applications/KiCad/KiCad.app/Contents/Applications/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -416,12 +416,20 @@
       ""
     ],
     [
-      "a82201a8-9dca-4a1d-828e-2de3fb3c1adb",
-      "Phase_A"
+      "bab0431c-ca33-4c57-9dbe-00ccaf05ca0f",
+      "Power Supply"
     ],
     [
-      "1ee09e01-061c-44a5-b2ce-27a15063cdd6",
-      "Mosfet Driver"
+      "b6b0d34a-9e25-4b05-9733-a3c9d6720b5f",
+      "CAN"
+    ],
+    [
+      "52041989-aba3-4113-ba04-ece39669328f",
+      "MCU"
+    ],
+    [
+      "a82201a8-9dca-4a1d-828e-2de3fb3c1adb",
+      "3-Phase Bridge - Phase A"
     ]
   ],
   "text_variables": {}
