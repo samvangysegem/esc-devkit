@@ -13,31 +13,26 @@
   )
 
 
-  (text "Inspect decoupling capacitors" (at 43.815 163.195 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 990551a2-e01d-4777-8a53-aa02d897b414)
-  )
-
-  (sheet (at 109.855 36.83) (size 54.61 38.735) (fields_autoplaced)
+  (sheet (at 107.95 36.83) (size 54.61 38.735) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 52041989-aba3-4113-ba04-ece39669328f)
-    (property "Sheet name" "MCU" (id 0) (at 109.855 36.1184 0)
+    (property "Sheet name" "MCU" (id 0) (at 107.95 36.1184 0)
       (effects (font (size 1.27 1.27) bold) (justify left bottom))
     )
-    (property "Sheet file" "2_mcu.kicad_sch" (id 1) (at 109.855 76.1496 0)
+    (property "Sheet file" "2_mcu.kicad_sch" (id 1) (at 107.95 76.1496 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 179.07 36.83) (size 50.8 26.035) (fields_autoplaced)
+  (sheet (at 175.895 36.83) (size 50.8 26.035) (fields_autoplaced)
     (stroke (width 0.2) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid a82201a8-9dca-4a1d-828e-2de3fb3c1adb)
-    (property "Sheet name" "3-Phase Bridge - Phase A" (id 0) (at 179.07 36.0946 0)
+    (property "Sheet name" "3-Phase Bridge - Phase A" (id 0) (at 175.895 36.0946 0)
       (effects (font (size 1.27 1.27) bold) (justify left bottom))
     )
-    (property "Sheet file" "4_phase-a.kicad_sch" (id 1) (at 179.07 63.4734 0)
+    (property "Sheet file" "4_phase-a.kicad_sch" (id 1) (at 175.895 63.4734 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -204,6 +199,9 @@
     (path "/bab0431c-ca33-4c57-9dbe-00ccaf05ca0f/e496148c-3f14-4188-af64-4cc6b2dab3ac"
       (reference "#PWR?") (unit 1) (value "+BATT") (footprint "")
     )
+    (path "/52041989-aba3-4113-ba04-ece39669328f/ec6f6915-698e-4568-8091-a2a0f18c2f67"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/bab0431c-ca33-4c57-9dbe-00ccaf05ca0f/ef6ddf44-7721-4d49-8cfe-704dcfb60b7c"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -257,6 +255,9 @@
     )
     (path "/bab0431c-ca33-4c57-9dbe-00ccaf05ca0f/05777747-3a51-449c-a5d3-8a93489b85a5"
       (reference "C?") (unit 1) (value "10u") (footprint "")
+    )
+    (path "/bab0431c-ca33-4c57-9dbe-00ccaf05ca0f/0b170aa7-5d18-4a73-9916-a0b34d6dcbc7"
+      (reference "C?") (unit 1) (value "100u") (footprint "")
     )
     (path "/bab0431c-ca33-4c57-9dbe-00ccaf05ca0f/3129d89f-c610-49f2-a3bb-75dd041f3eb5"
       (reference "C?") (unit 1) (value "8n2") (footprint "")
@@ -431,6 +432,9 @@
     )
     (path "/bab0431c-ca33-4c57-9dbe-00ccaf05ca0f/9714532f-25a6-45c5-9942-074658e07fa0"
       (reference "U?") (unit 1) (value "TLV75533PDBV") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+    )
+    (path "/52041989-aba3-4113-ba04-ece39669328f/baed0279-7574-4779-9614-21514ca50e72"
+      (reference "U?") (unit 1) (value "STM32F446RETx") (footprint "Package_QFP:LQFP-64_10x10mm_P0.5mm")
     )
   )
 )
