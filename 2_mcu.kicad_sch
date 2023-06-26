@@ -1662,7 +1662,7 @@
     (effects (font (size 1.6 1.6) italic) (justify left bottom))
     (uuid 49b53d2c-75a3-4cb5-8432-9b71f2ab8a96)
   )
-  (text "Next steps:\n- CAN bus\n- Timer + inverter control\n- ADC inputs\n- Remaining GPIO assignment\n- RGB LED"
+  (text "Next steps:\n- CAN bus\n- Timer + inverter control\n- ADC inputs\n- Remaining GPIO assignment\n- RGB LED\n- Thermistor in phase design"
     (at 234.315 43.815 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6e7009f9-7f1e-4b31-ae86-0100ef447841)
