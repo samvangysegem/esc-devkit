@@ -1856,8 +1856,8 @@
     (effects (font (size 1.6 1.6) italic) (justify left bottom))
     (uuid 49b53d2c-75a3-4cb5-8432-9b71f2ab8a96)
   )
-  (text "Next steps:\n- Timer + inverter control -> Read docs\n- ADC inputs -> Assign pins\n- Remaining GPIO assignment\n- RGB LED -> Circuitry\n- Thermistor in phase design -> Circuitry\n- Read up on USB peripheral"
-    (at 234.315 34.925 0)
+  (text "- Timer1 & outputs for inverter control are verified\n\nNext steps:\n- Read up on USB peripheral\n- Hall effect and/or quadrature signal inputs\n- ADC inputs -> Assign pins\n- Remaining GPIO assignment\n- RGB LED -> Circuitry\n- Thermistor in phase design -> Circuitry\n"
+    (at 231.14 34.925 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6e7009f9-7f1e-4b31-ae86-0100ef447841)
   )
