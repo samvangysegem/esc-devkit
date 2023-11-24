@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "3-Phase Bridge - Phase A [4]")
+    (title "3-Phase Bridge - Phase A")
     (date "2023-04-16")
     (rev "1.0")
   )
@@ -1321,7 +1321,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid db8876f1-588b-4ce7-bcc0-e0e4cacaac98)
   )
-  (text "[4] 3-Phase Bridge - Phase A" (at 18.415 25.4 0)
+  (text "[5] 3-Phase Bridge - Phase A" (at 18.415 25.4 0)
     (effects (font (size 3.5 3.5) (thickness 0.8) bold) (justify left bottom))
     (uuid dc0580ee-38a4-48a1-b522-ac7e31c68f7e)
   )
@@ -1430,10 +1430,10 @@
   (symbol (lib_id "Device:R_Shunt") (at 237.49 83.185 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00bc9b97-00a0-4371-bdb0-c1bc4a58fe36)
-    (property "Reference" "R410" (at 237.49 77.47 90)
+    (property "Reference" "R510" (at 237.49 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0.001" (at 237.49 80.01 90)
+    (property "Value" "0.001" (at 237.49 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_2512_6332Metric" (at 237.49 81.407 90)
@@ -1452,7 +1452,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "R410") (unit 1)
+          (reference "R510") (unit 1)
         )
       )
     )
@@ -1461,7 +1461,7 @@
   (symbol (lib_id "Device:R_Small") (at 182.88 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 033a151a-16a2-41ed-be2d-0863b7dc5983)
-    (property "Reference" "R409" (at 184.15 104.775 0)
+    (property "Reference" "R509" (at 184.15 104.775 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k2" (at 184.15 106.68 0)
@@ -1478,7 +1478,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "R409") (unit 1)
+          (reference "R509") (unit 1)
         )
       )
     )
@@ -1537,7 +1537,7 @@
   (symbol (lib_id "Device:D_Schottky_Small_Filled") (at 113.03 74.295 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0dd5756f-c794-4889-a031-f4323757a0d5)
-    (property "Reference" "D401" (at 114.935 73.66 90)
+    (property "Reference" "D501" (at 114.935 73.66 90)
       (effects (font (size 1.27 1.27)) (justify right top))
     )
     (property "Value" "RB162MM-60" (at 114.935 76.2 90)
@@ -1554,7 +1554,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "D401") (unit 1)
+          (reference "D501") (unit 1)
         )
       )
     )
@@ -1663,7 +1663,7 @@
   (symbol (lib_id "Device:R_Small") (at 194.945 99.695 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3863bce8-775f-457b-ba6c-bd6d9fb7a0d6)
-    (property "Reference" "R408" (at 194.31 97.79 90)
+    (property "Reference" "R508" (at 194.31 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "17k8" (at 194.945 101.6 90)
@@ -1680,7 +1680,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "R408") (unit 1)
+          (reference "R508") (unit 1)
         )
       )
     )
@@ -1689,13 +1689,13 @@
   (symbol (lib_id "Device:R_Small") (at 257.175 35.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ac32283-b004-4270-9f41-d5ac39134f55)
-    (property "Reference" "R411" (at 256.54 33.655 90)
+    (property "Reference" "R511" (at 256.54 33.655 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 257.175 37.465 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 257.175 35.56 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 257.175 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 257.175 35.56 0)
@@ -1706,7 +1706,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "R411") (unit 1)
+          (reference "R511") (unit 1)
         )
       )
     )
@@ -1790,7 +1790,7 @@
   (symbol (lib_id "Device:R_Small") (at 196.85 73.025 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6b2db376-d34c-4198-83e5-ab6d1b9d82cd)
-    (property "Reference" "R405" (at 198.12 72.39 0)
+    (property "Reference" "R505" (at 198.12 72.39 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 198.12 74.295 0)
@@ -1807,7 +1807,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "R405") (unit 1)
+          (reference "R505") (unit 1)
         )
       )
     )
@@ -1816,7 +1816,7 @@
   (symbol (lib_id "Device:C_Small") (at 173.99 105.41 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6d144eda-62ec-4013-9ea3-5d5b8f31b362)
-    (property "Reference" "C408" (at 176.53 104.775 0)
+    (property "Reference" "C508" (at 176.53 104.775 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "DNP" (at 176.53 106.68 0)
@@ -1833,7 +1833,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "C408") (unit 1)
+          (reference "C508") (unit 1)
         )
       )
     )
@@ -1842,7 +1842,7 @@
   (symbol (lib_id "Device:C_Small") (at 113.03 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85c9ca89-314a-4e70-9951-6bee9a4237df)
-    (property "Reference" "C405" (at 114.935 87.63 0)
+    (property "Reference" "C505" (at 114.935 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 114.935 89.535 0)
@@ -1859,7 +1859,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "C405") (unit 1)
+          (reference "C505") (unit 1)
         )
       )
     )
@@ -1893,7 +1893,7 @@
   (symbol (lib_id "Device:R_Small") (at 100.965 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8abf6215-eb99-4523-819d-2b5a771368c4)
-    (property "Reference" "R403" (at 100.965 64.135 90)
+    (property "Reference" "R503" (at 100.965 64.135 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30R1" (at 100.965 67.945 90)
@@ -1910,7 +1910,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "R403") (unit 1)
+          (reference "R503") (unit 1)
         )
       )
     )
@@ -1944,7 +1944,7 @@
   (symbol (lib_id "Device:R_Small") (at 177.8 66.675 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a04afb8-bd39-4b95-ab58-eb969e7ac24a)
-    (property "Reference" "R404" (at 177.165 64.77 90)
+    (property "Reference" "R504" (at 177.165 64.77 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4R7" (at 177.8 68.58 90)
@@ -1961,7 +1961,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "R404") (unit 1)
+          (reference "R504") (unit 1)
         )
       )
     )
@@ -1995,7 +1995,7 @@
   (symbol (lib_id "Device:C_Small") (at 54.61 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2a7d8a4-36a8-48c9-9ea4-ff099251358e)
-    (property "Reference" "C403" (at 56.515 100.33 0)
+    (property "Reference" "C503" (at 56.515 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 56.515 102.235 0)
@@ -2012,7 +2012,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "C403") (unit 1)
+          (reference "C503") (unit 1)
         )
       )
     )
@@ -2021,10 +2021,10 @@
   (symbol (lib_id "Transistor_FET:BSC072N08NS5") (at 207.01 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4b2fd0b-1bcc-490c-9369-79a1d2021971)
-    (property "Reference" "Q402" (at 213.36 132.0799 0)
+    (property "Reference" "Q502" (at 213.36 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BSC072N08NS5" (at 213.36 134.6199 0)
+    (property "Value" "BSC072N08NS5" (at 213.36 135.255 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1" (at 212.09 135.255 0)
@@ -2041,7 +2041,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "Q402") (unit 1)
+          (reference "Q502") (unit 1)
         )
       )
     )
@@ -2075,10 +2075,10 @@
   (symbol (lib_id "Transistor_FET:BSC072N08NS5") (at 207.01 66.675 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid acebd36e-f524-4836-86cb-4e8d36adf5b1)
-    (property "Reference" "Q401" (at 213.36 65.4049 0)
+    (property "Reference" "Q501" (at 213.36 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BSC072N08NS5" (at 213.36 67.9449 0)
+    (property "Value" "BSC072N08NS5" (at 213.36 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1" (at 212.09 68.58 0)
@@ -2095,7 +2095,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "Q401") (unit 1)
+          (reference "Q501") (unit 1)
         )
       )
     )
@@ -2104,7 +2104,7 @@
   (symbol (lib_id "Device:C_Small") (at 64.135 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd4cc266-90fd-4643-8eac-69e3639ba4ff)
-    (property "Reference" "C404" (at 66.04 100.33 0)
+    (property "Reference" "C504" (at 66.04 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 66.04 102.235 0)
@@ -2121,7 +2121,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "C404") (unit 1)
+          (reference "C504") (unit 1)
         )
       )
     )
@@ -2130,7 +2130,7 @@
   (symbol (lib_id "Amplifier_Current:AD8418") (at 237.49 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c432b939-fd67-4415-9205-687bd97d81c2)
-    (property "Reference" "U402" (at 229.87 113.665 0)
+    (property "Reference" "U502" (at 229.87 113.665 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AD8418" (at 239.395 113.665 0)
@@ -2153,7 +2153,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "U402") (unit 1)
+          (reference "U502") (unit 1)
         )
       )
     )
@@ -2162,7 +2162,7 @@
   (symbol (lib_id "Device:C_Small") (at 66.04 71.12 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c80d612a-4a40-4f17-a939-9bc3fb01d2f8)
-    (property "Reference" "C401" (at 68.58 69.85 0)
+    (property "Reference" "C501" (at 68.58 69.85 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2u2" (at 68.58 71.755 0)
@@ -2179,7 +2179,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "C401") (unit 1)
+          (reference "C501") (unit 1)
         )
       )
     )
@@ -2213,7 +2213,7 @@
   (symbol (lib_id "Driver_FET:IR2181") (at 87.63 90.805 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf85ac42-c23e-4ab5-a097-8b1e2e6a4db8)
-    (property "Reference" "U401" (at 80.01 102.87 0)
+    (property "Reference" "U501" (at 80.01 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IR2181S" (at 88.9 102.87 0)
@@ -2239,7 +2239,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "U401") (unit 1)
+          (reference "U501") (unit 1)
         )
       )
     )
@@ -2248,7 +2248,7 @@
   (symbol (lib_id "Device:R_Small") (at 48.26 95.885 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d09d8ab4-7ba0-4398-86ce-762ff9a9edd6)
-    (property "Reference" "R402" (at 48.26 93.98 90)
+    (property "Reference" "R502" (at 48.26 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 48.26 97.79 90)
@@ -2265,7 +2265,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "R402") (unit 1)
+          (reference "R502") (unit 1)
         )
       )
     )
@@ -2299,7 +2299,7 @@
   (symbol (lib_id "Device:R_Small") (at 196.85 139.7 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d854e347-aadb-4f1e-ac09-ae48743c725b)
-    (property "Reference" "R407" (at 198.12 139.065 0)
+    (property "Reference" "R507" (at 198.12 139.065 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 198.12 140.97 0)
@@ -2316,7 +2316,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "R407") (unit 1)
+          (reference "R507") (unit 1)
         )
       )
     )
@@ -2325,7 +2325,7 @@
   (symbol (lib_id "Device:C_Small") (at 220.98 114.935 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9ca59db-1a28-4a90-9f83-a22ba463f256)
-    (property "Reference" "C409" (at 223.52 113.665 0)
+    (property "Reference" "C509" (at 223.52 113.665 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2u2" (at 223.52 115.57 0)
@@ -2342,7 +2342,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "C409") (unit 1)
+          (reference "C509") (unit 1)
         )
       )
     )
@@ -2351,7 +2351,7 @@
   (symbol (lib_id "Device:C_Small") (at 200.025 46.355 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9fe8466-d6df-4d75-8479-65bac7a42ccb)
-    (property "Reference" "C407" (at 202.565 45.085 0)
+    (property "Reference" "C507" (at 202.565 45.085 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2u2" (at 202.565 46.99 0)
@@ -2368,7 +2368,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "C407") (unit 1)
+          (reference "C507") (unit 1)
         )
       )
     )
@@ -2377,7 +2377,7 @@
   (symbol (lib_id "Device:C_Small") (at 75.565 71.12 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0ced3e5-164e-48a8-bd54-aedd7bcb1600)
-    (property "Reference" "C402" (at 78.105 69.85 0)
+    (property "Reference" "C502" (at 78.105 69.85 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 78.105 71.755 0)
@@ -2394,7 +2394,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "C402") (unit 1)
+          (reference "C502") (unit 1)
         )
       )
     )
@@ -2403,7 +2403,7 @@
   (symbol (lib_id "Device:C_Small") (at 248.285 41.275 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e10ca788-7793-4b8a-a031-7c7b385ea3dd)
-    (property "Reference" "C410" (at 250.825 40.64 0)
+    (property "Reference" "C510" (at 250.825 40.64 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10n" (at 250.825 42.545 0)
@@ -2420,7 +2420,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "C410") (unit 1)
+          (reference "C510") (unit 1)
         )
       )
     )
@@ -2429,7 +2429,7 @@
   (symbol (lib_id "Device:C_Small") (at 189.865 46.355 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3a275a6-6067-44bb-ac1d-948fd173794a)
-    (property "Reference" "C406" (at 192.405 45.085 0)
+    (property "Reference" "C506" (at 192.405 45.085 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22u" (at 192.405 46.99 0)
@@ -2446,7 +2446,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "C406") (unit 1)
+          (reference "C506") (unit 1)
         )
       )
     )
@@ -2455,7 +2455,7 @@
   (symbol (lib_id "Device:D_Schottky_Small_Filled") (at 187.96 92.71 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed25bf12-4b3b-4f7c-b08e-dfea8041dc7a)
-    (property "Reference" "D402" (at 189.865 91.44 90)
+    (property "Reference" "D502" (at 189.865 91.44 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MBR0530-TP" (at 189.865 93.98 90)
@@ -2472,7 +2472,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "D402") (unit 1)
+          (reference "D502") (unit 1)
         )
       )
     )
@@ -2481,7 +2481,7 @@
   (symbol (lib_id "Device:R_Small") (at 48.26 88.265 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eee7d435-0420-459f-b5d1-c46d2cc05ac9)
-    (property "Reference" "R401" (at 48.26 86.36 90)
+    (property "Reference" "R501" (at 48.26 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 48.26 90.17 90)
@@ -2498,7 +2498,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "R401") (unit 1)
+          (reference "R501") (unit 1)
         )
       )
     )
@@ -2507,7 +2507,7 @@
   (symbol (lib_id "Device:R_Small") (at 178.435 133.35 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f7366848-d540-4023-9eb1-a43e81987d87)
-    (property "Reference" "R406" (at 177.8 131.445 90)
+    (property "Reference" "R506" (at 177.8 131.445 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4R7" (at 178.435 135.255 90)
@@ -2524,7 +2524,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "R406") (unit 1)
+          (reference "R506") (unit 1)
         )
       )
     )

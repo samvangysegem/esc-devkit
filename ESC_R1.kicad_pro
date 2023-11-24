@@ -436,20 +436,28 @@
       "Power Supply"
     ],
     [
+      "52041989-aba3-4113-ba04-ece39669328f",
+      "MCU"
+    ],
+    [
       "b6b0d34a-9e25-4b05-9733-a3c9d6720b5f",
       "CAN"
     ],
     [
-      "52041989-aba3-4113-ba04-ece39669328f",
-      "MCU"
+      "4b568fb1-3ffb-4d91-93b3-473275569108",
+      "USB"
     ],
     [
       "a82201a8-9dca-4a1d-828e-2de3fb3c1adb",
       "3-Phase Bridge - Phase A"
     ],
     [
-      "4b568fb1-3ffb-4d91-93b3-473275569108",
-      "USB"
+      "c42edb1a-90dc-4d64-9c27-05abb4553a36",
+      "3-Phase Bridge - Phase B"
+    ],
+    [
+      "912dc4da-f7bc-46bd-8800-06fc31d708dd",
+      "3-Phase Bridge - Phase C"
     ]
   ],
   "text_variables": {}
