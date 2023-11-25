@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (title "USB [4]")
-    (date "2023-11-18")
+    (title "USB")
+    (date "2023-11-25")
     (rev "1.0")
   )
 

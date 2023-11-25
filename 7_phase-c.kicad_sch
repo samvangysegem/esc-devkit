@@ -6,7 +6,7 @@
 
   (title_block
     (title "3-Phase Bridge - Phase C")
-    (date "2023-11-24")
+    (date "2023-11-25")
     (rev "1.0")
   )
 
@@ -2118,7 +2118,7 @@
           (reference "H1") (unit 1)
         )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/912dc4da-f7bc-46bd-8800-06fc31d708dd"
-          (reference "H2") (unit 1)
+          (reference "H701") (unit 1)
         )
       )
     )

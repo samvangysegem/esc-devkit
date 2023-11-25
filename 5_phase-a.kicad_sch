@@ -6,7 +6,7 @@
 
   (title_block
     (title "3-Phase Bridge - Phase A")
-    (date "2023-04-16")
+    (date "2023-11-25")
     (rev "1.0")
   )
 
@@ -1487,7 +1487,7 @@
   (symbol (lib_id "power:+3.3V") (at 187.96 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0600e1fd-4d93-4f07-87f9-b36f8f590e67)
-    (property "Reference" "#PWR?" (at 187.96 91.44 0)
+    (property "Reference" "#PWR0146" (at 187.96 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 187.96 83.82 0)
@@ -1503,7 +1503,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0146") (unit 1)
         )
       )
     )
@@ -1512,7 +1512,7 @@
   (symbol (lib_id "power:GND") (at 189.865 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0cb40033-f2cf-4cd1-9683-6bf6a09da82f)
-    (property "Reference" "#PWR?" (at 189.865 58.42 0)
+    (property "Reference" "#PWR0152" (at 189.865 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.865 56.515 0)
@@ -1528,7 +1528,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0152") (unit 1)
         )
       )
     )
@@ -1563,7 +1563,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 261.62 83.185 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 238cffe3-e9f3-479e-acba-9c3075ca3911)
-    (property "Reference" "H?" (at 265.43 81.9149 90)
+    (property "Reference" "H501" (at 265.43 81.9149 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Pad" (at 265.43 84.455 90)
@@ -1579,7 +1579,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "H?") (unit 1)
+          (reference "H501") (unit 1)
         )
       )
     )
@@ -1588,7 +1588,7 @@
   (symbol (lib_id "power:GND") (at 220.98 120.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26b3f857-fda6-4379-a5a4-6d218346e5f6)
-    (property "Reference" "#PWR?" (at 220.98 126.365 0)
+    (property "Reference" "#PWR0144" (at 220.98 126.365 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 220.98 124.46 0)
@@ -1604,7 +1604,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0144") (unit 1)
         )
       )
     )
@@ -1613,7 +1613,7 @@
   (symbol (lib_id "power:GND") (at 209.55 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d32cd17-5ec4-4a13-9f83-79bcd11e8b9d)
-    (property "Reference" "#PWR?" (at 209.55 157.48 0)
+    (property "Reference" "#PWR0145" (at 209.55 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 209.55 155.575 0)
@@ -1629,7 +1629,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0145") (unit 1)
         )
       )
     )
@@ -1638,7 +1638,7 @@
   (symbol (lib_id "power:GND") (at 248.285 47.625 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 335d0389-0e8d-4768-9e77-ea9551175436)
-    (property "Reference" "#PWR?" (at 248.285 53.975 0)
+    (property "Reference" "#PWR0149" (at 248.285 53.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 248.285 52.07 0)
@@ -1654,7 +1654,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0149") (unit 1)
         )
       )
     )
@@ -1715,7 +1715,7 @@
   (symbol (lib_id "power:+BATT") (at 209.55 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f656041-2a5f-4a70-ac78-87eb255e9c47)
-    (property "Reference" "#PWR?" (at 209.55 38.1 0)
+    (property "Reference" "#PWR0150" (at 209.55 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 209.55 29.21 0)
@@ -1731,7 +1731,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0150") (unit 1)
         )
       )
     )
@@ -1919,7 +1919,7 @@
   (symbol (lib_id "power:GND") (at 173.99 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8cb8bd29-386b-4763-b525-5a9ea08702e0)
-    (property "Reference" "#PWR?" (at 173.99 118.11 0)
+    (property "Reference" "#PWR0148" (at 173.99 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 116.205 0)
@@ -1935,7 +1935,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0148") (unit 1)
         )
       )
     )
@@ -2050,7 +2050,7 @@
   (symbol (lib_id "power:+3.3V") (at 220.98 103.505 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a958a4bd-0927-4934-b574-b32dbf0f2203)
-    (property "Reference" "#PWR?" (at 220.98 107.315 0)
+    (property "Reference" "#PWR0147" (at 220.98 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 220.98 99.695 0)
@@ -2066,7 +2066,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0147") (unit 1)
         )
       )
     )
@@ -2188,7 +2188,7 @@
   (symbol (lib_id "power:GND") (at 200.025 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8183e9a-58f9-4ece-a6ca-1a09530007d2)
-    (property "Reference" "#PWR?" (at 200.025 58.42 0)
+    (property "Reference" "#PWR0151" (at 200.025 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.025 56.515 0)
@@ -2204,7 +2204,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0151") (unit 1)
         )
       )
     )
@@ -2533,7 +2533,7 @@
   (symbol (lib_id "power:GND") (at 237.49 120.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc911a45-aeae-42c2-84fe-1ae68704450e)
-    (property "Reference" "#PWR?" (at 237.49 126.365 0)
+    (property "Reference" "#PWR0143" (at 237.49 126.365 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 237.49 124.46 0)
@@ -2549,7 +2549,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0143") (unit 1)
         )
       )
     )
