@@ -6,7 +6,7 @@
 
   (title_block
     (title "USB")
-    (date "2023-11-25")
+    (date "2023-11-26")
     (rev "1.0")
   )
 
@@ -1253,6 +1253,9 @@
     (property "Datasheet" "~" (at 196.215 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Link" "https://www.digikey.de/en/products/detail/w%C3%BCrth-elektronik/742792625/4310426" (at 196.215 64.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 888e7a02-f044-4e59-a0be-5780dd144fd8))
     (pin "2" (uuid 2a86313a-503b-4f85-b3a6-3c6c0432dfb8))
     (instances
@@ -1332,7 +1335,7 @@
     (property "Value" "100n" (at 189.23 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 186.69 71.12 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 186.69 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 186.69 71.12 0)
@@ -1361,7 +1364,7 @@
     (property "Value" "100n" (at 208.28 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 205.74 71.12 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 205.74 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 205.74 71.12 0)

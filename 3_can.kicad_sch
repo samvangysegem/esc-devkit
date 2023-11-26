@@ -6,7 +6,7 @@
 
   (title_block
     (title "CAN")
-    (date "2023-11-25")
+    (date "2023-11-26")
     (rev "1.0")
   )
 
@@ -950,7 +950,7 @@
     (property "Value" "Conn_01x04_Male" (at 210.82 102.2349 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 208.915 102.235 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 208.915 102.235 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 208.915 102.235 0)
@@ -1014,6 +1014,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 128.905 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Link" "https://www.mouser.de/ProductDetail/NXP-Semiconductors/TJA1441AT-0Z?qs=eP2BKZSCXI7fcqmlBnmIFw%3D%3D" (at 128.905 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 154b555c-1ff0-4bdc-b124-a8ace132a84d))
