@@ -1245,7 +1245,7 @@
     (effects (font (size 1.6 1.6) italic) (justify left bottom))
     (uuid 897f4f59-9785-4b3c-a020-a33341a49f6f)
   )
-  (text "P_{Rated} = 0.5W\n" (at 95.885 71.755 0)
+  (text "P_{Rated} = 1/3W\n" (at 95.885 71.12 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8f84caab-286b-452e-aea5-0508f1f6a012)
   )
@@ -1912,6 +1912,9 @@
     (property "Datasheet" "~" (at 102.87 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Link" "https://www.digikey.de/en/products/detail/vishay-dale/CRCW060333R0FKEAHP/2222237" (at 102.87 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 881dc7f9-4900-4a7a-90d5-356796109200))
     (pin "2" (uuid 36783dc8-bbba-488e-b7be-a07a16711eaa))
     (instances
@@ -2284,6 +2287,34 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 263.525 83.185 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b049c12d-e3be-4e20-a79b-2e4af2c9338a)
+    (property "Reference" "H501" (at 267.335 81.9149 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Pad" (at 267.335 84.455 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_5.0x7.0mm" (at 263.525 83.185 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 263.525 83.185 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 02f81452-a689-4189-a5ba-fa08ee903300))
+    (instances
+      (project "ESC_R1"
+        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
+          (reference "H501") (unit 1)
+        )
+        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/c42edb1a-90dc-4d64-9c27-05abb4553a36"
+          (reference "H601") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:D_Schottky_Small_Filled") (at 114.935 74.295 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b3dd49a9-39d2-4113-b852-d0b69ddbbfcb)
@@ -2628,37 +2659,6 @@
         )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/912dc4da-f7bc-46bd-8800-06fc31d708dd"
           (reference "R22") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 263.525 83.185 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e9608269-578b-48a5-b292-0e4ecfeec79b)
-    (property "Reference" "H?" (at 267.335 81.9149 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Pad" (at 267.335 84.455 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" (at 263.525 83.185 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 263.525 83.185 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d394873e-1c50-46f4-95a0-c7d224f0221c))
-    (instances
-      (project "ESC_R1"
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "H?") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/c42edb1a-90dc-4d64-9c27-05abb4553a36"
-          (reference "H601") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/912dc4da-f7bc-46bd-8800-06fc31d708dd"
-          (reference "H2") (unit 1)
         )
       )
     )
