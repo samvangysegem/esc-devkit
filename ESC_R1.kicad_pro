@@ -12,7 +12,7 @@
         "copper_text_upright": false,
         "courtyard_line_width": 0.049999999999999996,
         "dimension_precision": 4,
-        "dimension_units": 3,
+        "dimension_units": 2,
         "dimensions": {
           "arrow_length": 1270000,
           "extension_offset": 500000,
@@ -57,8 +57,13 @@
         },
         {
           "gap": 0.3,
-          "via_gap": 0.35,
+          "via_gap": 0.6,
           "width": 0.15
+        },
+        {
+          "gap": 0.15,
+          "via_gap": 0.5,
+          "width": 0.2
         }
       ],
       "drc_exclusions": [],
@@ -120,17 +125,17 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.15,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_connection": 0.15,
+        "min_copper_edge_clearance": 0.3,
+        "min_hole_clearance": 0.26,
+        "min_hole_to_hole": 0.26,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.25,
         "min_track_width": 0.15,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.39999999999999997,
@@ -182,8 +187,11 @@
       "track_widths": [
         0.0,
         0.15,
+        0.2,
         0.3,
-        0.6
+        0.4,
+        0.6,
+        1.0
       ],
       "via_dimensions": [
         {
@@ -191,11 +199,15 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
+          "diameter": 0.65,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.7,
           "drill": 0.3
         },
         {
-          "diameter": 0.6,
+          "diameter": 0.9,
           "drill": 0.4
         }
       ],
@@ -410,7 +422,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -450,16 +462,16 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.3,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Sensing",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.125,
+        "track_width": 0.15,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
