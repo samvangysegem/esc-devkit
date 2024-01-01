@@ -546,31 +546,35 @@
     ],
     [
       "bab0431c-ca33-4c57-9dbe-00ccaf05ca0f",
-      "Power Supply"
+      "[1] Power Supply"
     ],
     [
       "52041989-aba3-4113-ba04-ece39669328f",
-      "MCU"
+      "[2] MCU"
     ],
     [
       "b6b0d34a-9e25-4b05-9733-a3c9d6720b5f",
-      "CAN"
+      "[3] CAN"
     ],
     [
       "4b568fb1-3ffb-4d91-93b3-473275569108",
-      "USB"
+      "[4] USB"
     ],
     [
       "a82201a8-9dca-4a1d-828e-2de3fb3c1adb",
-      "3-Phase Bridge - Phase A"
+      "[5] 3-Phase Bridge - Phase A"
     ],
     [
-      "c42edb1a-90dc-4d64-9c27-05abb4553a36",
-      "3-Phase Bridge - Phase B"
+      "fe2fcbfe-ce2b-4fee-9243-f26c3dcbcd78",
+      "[6] 3-Phase Bridge - Phase B"
     ],
     [
-      "912dc4da-f7bc-46bd-8800-06fc31d708dd",
-      "3-Phase Bridge - Phase C"
+      "4eb0e494-3187-44db-9d3d-24d2fbf5dea7",
+      "[7] 3-Phase Bridge - Phase C"
+    ],
+    [
+      "a3e35b3c-4638-490f-9346-391194ad4a20",
+      "[8] Power - Connectors"
     ]
   ],
   "text_variables": {}
