@@ -1965,7 +1965,7 @@
     (uuid bbf2b548-310a-4230-9edb-cb70f0113a3e)
     (data
       iVBORw0KGgoAAAANSUhEUgAADbUAAAmwCAIAAACY8LCZAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
-      AAsSAAALEgHS3X78AAAgAElEQVR4nOzdW4sbSRaF0R2R5TbM//+zHpci+iFTKrnnAmN3YbRnLQpb
+      AArwAAAK8AFCrDSYAAAgAElEQVR4nOzdW4sbSRaF0R2R5TbM//+zHpci+iFTKrnnAmN3YbRnLQpb
       dwSpp+TLc8beOwAAAAAAAAAAAABF5u/+AgAAAAAAAAAAAAB/M30kAAAAAAAAAAAA0EYfCQAAAAAA
       AAAAALTRRwIAAAAAAAAAAABt9JEAAAAAAAAAAABAG30kAAAAAAAAAAAA0EYfCQAAAAAAAAAAALTR
       RwIAAAAAAAAAAABt9JEAAAAAAAAAAABAG30kAAAAAAAAAAAA0EYfCQAAAAAAAAAAALTRRwIAAAAA
@@ -22206,7 +22206,7 @@
     (property "Value" "2u2 50V" (at 107.315 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 105.41 82.55 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 105.41 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 105.41 82.55 0)
@@ -22238,7 +22238,7 @@
     (property "Value" "2u2 50V" (at 93.98 135.255 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 92.075 133.985 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 92.075 133.985 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 92.075 133.985 0)
@@ -22377,7 +22377,7 @@
     (property "Value" "2u2 50V" (at 77.47 135.255 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 75.565 133.985 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 75.565 133.985 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 75.565 133.985 0)
@@ -22538,7 +22538,7 @@
     (property "Value" "2u2 50V" (at 62.23 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 60.325 82.55 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 60.325 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 60.325 82.55 0)
@@ -23257,7 +23257,7 @@
     (property "Value" "2u2 50V" (at 77.47 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 75.565 82.55 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 75.565 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 75.565 82.55 0)
@@ -23706,7 +23706,7 @@
     (property "Value" "2u2 50V" (at 93.98 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 92.075 82.55 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 92.075 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 92.075 82.55 0)
@@ -24303,7 +24303,7 @@
     (property "Value" "2u2 50V" (at 107.315 135.255 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 105.41 133.985 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 105.41 133.985 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 105.41 133.985 0)
@@ -24790,7 +24790,7 @@
     (property "Value" "2u2 50V" (at 62.23 135.255 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 60.325 133.985 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 60.325 133.985 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 60.325 133.985 0)
