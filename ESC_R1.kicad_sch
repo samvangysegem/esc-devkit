@@ -62,11 +62,6 @@
     (uuid e3cb5ecb-c16d-4e37-ba7d-7381c4ce3855)
   )
 
-  (text "Tasks\n- Add test points" (at 208.915 30.48 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid a0b17353-b3e0-49d9-9701-ca833e2f32ca)
-  )
-
   (sheet (at 82.55 122.555) (size 42.545 26.035) (fields_autoplaced)
     (stroke (width 0.2) (type solid))
     (fill (color 0 0 0 0.0000))
