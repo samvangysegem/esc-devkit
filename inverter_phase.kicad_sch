@@ -926,10 +926,6 @@
     (stroke (width 0) (type default))
     (uuid 3992ee0d-a5b5-4861-ab47-61ad5bc0b382)
   )
-  (wire (pts (xy 40.64 149.225) (xy 45.72 149.225))
-    (stroke (width 0) (type default))
-    (uuid 3c7e31dd-c576-4bec-89a5-41fc9423cab6)
-  )
   (wire (pts (xy 197.485 120.65) (xy 197.485 118.11))
     (stroke (width 0) (type default))
     (uuid 3c9d168a-f548-41a0-a24a-128d678ec29e)
@@ -954,7 +950,7 @@
     (stroke (width 0) (type default))
     (uuid 42332c11-651b-4cc6-9dbb-a36871cbf186)
   )
-  (wire (pts (xy 40.64 138.43) (xy 45.72 138.43))
+  (wire (pts (xy 40.64 130.175) (xy 45.72 130.175))
     (stroke (width 0) (type default))
     (uuid 42336198-4165-4d97-96be-1ba906154658)
   )
@@ -981,10 +977,6 @@
   (wire (pts (xy 102.235 59.69) (xy 114.935 59.69))
     (stroke (width 0) (type default))
     (uuid 4ecf2103-98fd-4fa8-80e3-7bf32e95b098)
-  )
-  (wire (pts (xy 41.275 133.985) (xy 45.72 133.985))
-    (stroke (width 0) (type default))
-    (uuid 50368b8a-98e5-46b7-8695-54be3c978407)
   )
   (wire (pts (xy 225.425 142.875) (xy 231.14 142.875))
     (stroke (width 0) (type default))
@@ -1050,7 +1042,7 @@
     (stroke (width 0) (type default))
     (uuid 88b61dbc-6018-452e-b3c6-63896660eee5)
   )
-  (wire (pts (xy 40.64 141.605) (xy 45.72 141.605))
+  (wire (pts (xy 40.64 133.35) (xy 45.72 133.35))
     (stroke (width 0) (type default))
     (uuid 892be53e-bd48-487b-a9dd-b6c5c7dd8b22)
   )
@@ -1058,7 +1050,7 @@
     (stroke (width 0) (type default))
     (uuid 8bc0d5db-59d8-4ad1-8922-58085d487405)
   )
-  (wire (pts (xy 40.64 146.05) (xy 45.72 146.05))
+  (wire (pts (xy 40.64 137.795) (xy 45.72 137.795))
     (stroke (width 0) (type default))
     (uuid 8dc6a0d8-a5fc-4b39-afef-752edf715338)
   )
@@ -1089,10 +1081,6 @@
   (wire (pts (xy 231.14 113.665) (xy 231.14 133.985))
     (stroke (width 0) (type default))
     (uuid a12c32d1-8a38-4dff-8151-215b78f49741)
-  )
-  (wire (pts (xy 41.275 130.81) (xy 45.72 130.81))
-    (stroke (width 0) (type default))
-    (uuid a1d051e3-934a-473a-b1dd-6e3dfa8ce653)
   )
   (wire (pts (xy 203.2 78.74) (xy 203.2 80.645))
     (stroke (width 0) (type default))
@@ -1251,7 +1239,7 @@
     (uuid fe75ce51-2398-476c-abde-290aecea9419)
   )
 
-  (rectangle (start 21.59 124.46) (end 73.66 154.94)
+  (rectangle (start 21.59 124.46) (end 73.66 143.51)
     (stroke (width 0.8) (type default) (color 194 194 194 1))
     (fill (type none))
     (uuid 146dc5a0-acf9-4db1-8f9d-3c03bafac6fd)
@@ -1424,7 +1412,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0bb3d449-ddf4-48cb-8fec-d0fd11d08972)
   )
-  (hierarchical_label "PH_CURR_FILT" (shape output) (at 40.64 138.43 180) (fields_autoplaced)
+  (hierarchical_label "PH_CURR_FILT" (shape output) (at 40.64 130.175 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1dfa6361-d17d-4a69-9fa2-4326fd7b944d)
   )
@@ -1436,21 +1424,13 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 776c0688-0609-4f25-afdc-fb3990ef527e)
   )
-  (hierarchical_label "PH_VSDIV" (shape output) (at 40.64 141.605 180) (fields_autoplaced)
+  (hierarchical_label "PH_VSDIV" (shape output) (at 40.64 133.35 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 77cfa511-bf33-4d09-9228-053a71cd7ec3)
   )
   (hierarchical_label "PH_LIN" (shape input) (at 67.945 89.535 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 78692dff-c8e4-41af-8bec-8c443c8f5628)
-  )
-  (hierarchical_label "PH_HIN" (shape input) (at 41.275 130.81 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 82f295c2-e828-4f22-a494-dc0ebe577e05)
-  )
-  (hierarchical_label "PH_LIN" (shape input) (at 41.275 133.985 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ab346c79-7fbd-4fe3-85b0-eecd696cb4d0)
   )
 
   (symbol (lib_id "Device:R_Small") (at 203.2 76.2 0) (unit 1)
@@ -1560,7 +1540,7 @@
     (property "Value" "Pad" (at 243.84 85.09 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:Pad_5.5x5.5mm" (at 240.03 83.82 0)
+    (property "Footprint" "TestPoint:HC_Phase_Pad_6x6" (at 240.03 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 240.03 83.82 0)
@@ -1577,40 +1557,6 @@
         )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4eb0e494-3187-44db-9d3d-24d2fbf5dea7"
           (reference "H701") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 45.72 133.985 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2a26f950-14e2-46dd-a250-cc3a7df9fd06)
-    (property "Reference" "TP201" (at 53.975 133.985 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "PH_LIN" (at 62.23 133.985 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 45.72 128.905 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 45.72 128.905 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid dda55cbc-8b15-45f9-9de4-3d9f0d4c512b))
-    (instances
-      (project "ESC_R1"
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/bab0431c-ca33-4c57-9dbe-00ccaf05ca0f"
-          (reference "TP201") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "TP502") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/fe2fcbfe-ce2b-4fee-9243-f26c3dcbcd78"
-          (reference "TP602") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4eb0e494-3187-44db-9d3d-24d2fbf5dea7"
-          (reference "TP702") (unit 1)
         )
       )
     )
@@ -1650,7 +1596,7 @@
   (symbol (lib_id "power:+3.3VA") (at 197.485 116.205 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30a49b8d-d875-40a5-b269-e4f28740aa1d)
-    (property "Reference" "#PWR0132" (at 197.485 120.015 0)
+    (property "Reference" "#PWR0601" (at 197.485 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 197.485 112.395 0)
@@ -1665,12 +1611,6 @@
     (pin "1" (uuid a97166c2-8ac5-4eb6-8525-397daf66d66a))
     (instances
       (project "ESC_R1"
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/52041989-aba3-4113-ba04-ece39669328f"
-          (reference "#PWR0132") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/bab0431c-ca33-4c57-9dbe-00ccaf05ca0f"
-          (reference "#PWR0221") (unit 1)
-        )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
           (reference "#PWR0601") (unit 1)
         )
@@ -1809,35 +1749,32 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 45.72 138.43 270) (mirror x) (unit 1)
+  (symbol (lib_id "Connector:TestPoint") (at 45.72 130.175 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 409887b6-ccec-4789-8552-041ba1673b01)
-    (property "Reference" "TP201" (at 53.975 138.43 90)
+    (property "Reference" "TP501" (at 53.975 130.175 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "PH_CURR_F" (at 62.865 138.43 90)
+    (property "Value" "PH_CURR_F" (at 62.865 130.175 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 45.72 133.35 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 45.72 125.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 45.72 133.35 0)
+    (property "Datasheet" "~" (at 45.72 125.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e6930c9f-9e7d-463e-a389-15efdc39ad10))
     (instances
       (project "ESC_R1"
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/bab0431c-ca33-4c57-9dbe-00ccaf05ca0f"
-          (reference "TP201") (unit 1)
-        )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "TP503") (unit 1)
+          (reference "TP501") (unit 1)
         )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/fe2fcbfe-ce2b-4fee-9243-f26c3dcbcd78"
-          (reference "TP603") (unit 1)
+          (reference "TP601") (unit 1)
         )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4eb0e494-3187-44db-9d3d-24d2fbf5dea7"
-          (reference "TP703") (unit 1)
+          (reference "TP701") (unit 1)
         )
       )
     )
@@ -2007,53 +1944,50 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 45.72 146.05 270) (mirror x) (unit 1)
+  (symbol (lib_id "Connector:TestPoint") (at 45.72 137.795 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c6b06a2-3bbb-4118-be39-abe8cbb9777c)
-    (property "Reference" "TP201" (at 53.975 146.05 90)
+    (property "Reference" "TP503" (at 53.975 137.795 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "GND" (at 62.23 146.05 90)
+    (property "Value" "GND" (at 62.23 137.795 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 45.72 140.97 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 45.72 132.715 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 45.72 140.97 0)
+    (property "Datasheet" "~" (at 45.72 132.715 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c6cfcee2-9b69-4c9f-b2f6-165db6f31c22))
     (instances
       (project "ESC_R1"
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/bab0431c-ca33-4c57-9dbe-00ccaf05ca0f"
-          (reference "TP201") (unit 1)
-        )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "TP505") (unit 1)
+          (reference "TP503") (unit 1)
         )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/fe2fcbfe-ce2b-4fee-9243-f26c3dcbcd78"
-          (reference "TP605") (unit 1)
+          (reference "TP603") (unit 1)
         )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4eb0e494-3187-44db-9d3d-24d2fbf5dea7"
-          (reference "TP705") (unit 1)
+          (reference "TP703") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 40.64 146.05 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 40.64 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e781c4b-a8fa-47bf-916a-4a71b6f7b431)
-    (property "Reference" "#PWR0602" (at 40.64 152.4 0)
+    (property "Reference" "#PWR0602" (at 40.64 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 36.83 147.32 0)
+    (property "Value" "GND" (at 36.83 139.065 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 40.64 146.05 0)
+    (property "Footprint" "" (at 40.64 137.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 40.64 146.05 0)
+    (property "Datasheet" "" (at 40.64 137.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 81233593-fa78-4e8d-91c0-f64c05f78048))
@@ -2106,7 +2040,7 @@
   (symbol (lib_id "Device:C_Small") (at 197.485 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60546b02-879f-49f6-b207-29c2707e0177)
-    (property "Reference" "C207" (at 200.025 121.92 0)
+    (property "Reference" "C507" (at 200.025 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 200.025 124.46 0)
@@ -2122,9 +2056,6 @@
     (pin "2" (uuid cd00f7b8-473a-474a-87cc-f1c6efc15976))
     (instances
       (project "ESC_R1"
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/52041989-aba3-4113-ba04-ece39669328f"
-          (reference "C207") (unit 1)
-        )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
           (reference "C507") (unit 1)
         )
@@ -2133,40 +2064,6 @@
         )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4eb0e494-3187-44db-9d3d-24d2fbf5dea7"
           (reference "C707") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 45.72 130.81 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6773204c-3b7e-454c-a6a3-e3c6c47cd953)
-    (property "Reference" "TP201" (at 53.975 130.81 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "PH_HIN" (at 62.23 130.81 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 45.72 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 45.72 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid eb0a0656-6db9-40e8-8f71-6e0ac3ceb5ca))
-    (instances
-      (project "ESC_R1"
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/bab0431c-ca33-4c57-9dbe-00ccaf05ca0f"
-          (reference "TP201") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "TP501") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/fe2fcbfe-ce2b-4fee-9243-f26c3dcbcd78"
-          (reference "TP601") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4eb0e494-3187-44db-9d3d-24d2fbf5dea7"
-          (reference "TP701") (unit 1)
         )
       )
     )
@@ -2466,35 +2363,32 @@
     )
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 45.72 141.605 270) (mirror x) (unit 1)
+  (symbol (lib_id "Connector:TestPoint") (at 45.72 133.35 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a096180d-fb23-4bce-b6b0-7286d9067764)
-    (property "Reference" "TP201" (at 53.975 141.605 90)
+    (property "Reference" "TP502" (at 53.975 133.35 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "PH_VSDIV" (at 62.23 141.605 90)
+    (property "Value" "PH_VSDIV" (at 62.23 133.35 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 45.72 136.525 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 45.72 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 45.72 136.525 0)
+    (property "Datasheet" "~" (at 45.72 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 299de782-0b30-4b3c-8e89-fa9e11512e4e))
     (instances
       (project "ESC_R1"
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/bab0431c-ca33-4c57-9dbe-00ccaf05ca0f"
-          (reference "TP201") (unit 1)
-        )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "TP504") (unit 1)
+          (reference "TP502") (unit 1)
         )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/fe2fcbfe-ce2b-4fee-9243-f26c3dcbcd78"
-          (reference "TP604") (unit 1)
+          (reference "TP602") (unit 1)
         )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4eb0e494-3187-44db-9d3d-24d2fbf5dea7"
-          (reference "TP704") (unit 1)
+          (reference "TP702") (unit 1)
         )
       )
     )
@@ -2503,7 +2397,7 @@
   (symbol (lib_id "Device:C_Small") (at 81.915 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2a7d8a4-36a8-48c9-9ea4-ff099251358e)
-    (property "Reference" "C503" (at 83.82 93.98 0)
+    (property "Reference" "C501" (at 83.82 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 83.82 95.885 0)
@@ -2520,7 +2414,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "C503") (unit 1)
+          (reference "C501") (unit 1)
         )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/fe2fcbfe-ce2b-4fee-9243-f26c3dcbcd78"
           (reference "C601") (unit 1)
@@ -2611,7 +2505,7 @@
   (symbol (lib_id "Device:C_Small") (at 91.44 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd4cc266-90fd-4643-8eac-69e3639ba4ff)
-    (property "Reference" "C504" (at 93.345 93.98 0)
+    (property "Reference" "C502" (at 93.345 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 93.345 95.885 0)
@@ -2628,44 +2522,13 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "C504") (unit 1)
+          (reference "C502") (unit 1)
         )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/fe2fcbfe-ce2b-4fee-9243-f26c3dcbcd78"
           (reference "C602") (unit 1)
         )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4eb0e494-3187-44db-9d3d-24d2fbf5dea7"
           (reference "C702") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 40.64 149.225 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ca30d265-aa2a-4410-a1ab-87ed478bc926)
-    (property "Reference" "#PWR0603" (at 40.64 155.575 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 36.83 150.495 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 40.64 149.225 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 40.64 149.225 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1d11c5b2-a9ce-4e30-9161-4b79971761cd))
-    (instances
-      (project "ESC_R1"
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "#PWR0603") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/fe2fcbfe-ce2b-4fee-9243-f26c3dcbcd78"
-          (reference "#PWR0712") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4eb0e494-3187-44db-9d3d-24d2fbf5dea7"
-          (reference "#PWR0812") (unit 1)
         )
       )
     )
@@ -2715,7 +2578,7 @@
   (symbol (lib_id "Device:C_Small") (at 257.175 86.995 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf9b81d1-1c00-4655-9370-98c5b12b7049)
-    (property "Reference" "C207" (at 259.715 85.725 0)
+    (property "Reference" "C508" (at 259.715 85.725 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n 50V" (at 259.715 88.265 0)
@@ -2731,9 +2594,6 @@
     (pin "2" (uuid 22512f51-4e36-47e3-ad84-4863e3cd013c))
     (instances
       (project "ESC_R1"
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/52041989-aba3-4113-ba04-ece39669328f"
-          (reference "C207") (unit 1)
-        )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
           (reference "C508") (unit 1)
         )
@@ -2848,7 +2708,7 @@
   (symbol (lib_id "Device:C_Small") (at 88.9 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dabb8b75-a32d-4877-b12e-d4f8298252d2)
-    (property "Reference" "C224" (at 91.44 63.5 0)
+    (property "Reference" "C503" (at 91.44 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2u2 50V" (at 91.44 65.405 0)
@@ -2867,14 +2727,8 @@
     (pin "2" (uuid 6b1993ba-11a2-4d4f-af43-4686dfffa5b6))
     (instances
       (project "ESC_R1"
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/bab0431c-ca33-4c57-9dbe-00ccaf05ca0f"
-          (reference "C224") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a3e35b3c-4638-490f-9346-391194ad4a20"
-          (reference "C901") (unit 1)
-        )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "C501") (unit 1)
+          (reference "C503") (unit 1)
         )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/fe2fcbfe-ce2b-4fee-9243-f26c3dcbcd78"
           (reference "C603") (unit 1)
@@ -2927,7 +2781,7 @@
   (symbol (lib_id "Device:C_Small") (at 102.235 64.77 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0ced3e5-164e-48a8-bd54-aedd7bcb1600)
-    (property "Reference" "C502" (at 104.775 63.5 0)
+    (property "Reference" "C504" (at 104.775 63.5 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n 50V" (at 104.775 65.405 0)
@@ -2944,7 +2798,7 @@
     (instances
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "C502") (unit 1)
+          (reference "C504") (unit 1)
         )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/fe2fcbfe-ce2b-4fee-9243-f26c3dcbcd78"
           (reference "C604") (unit 1)
@@ -3015,40 +2869,6 @@
         )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4eb0e494-3187-44db-9d3d-24d2fbf5dea7"
           (reference "R701") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 45.72 149.225 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f2813208-c38f-41bb-8f7b-68fed7e10701)
-    (property "Reference" "TP201" (at 53.975 149.225 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "GND" (at 62.23 149.225 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 45.72 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 45.72 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 78b27bdb-221a-408e-a4a3-6a6814e8a34b))
-    (instances
-      (project "ESC_R1"
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/bab0431c-ca33-4c57-9dbe-00ccaf05ca0f"
-          (reference "TP201") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "TP506") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/fe2fcbfe-ce2b-4fee-9243-f26c3dcbcd78"
-          (reference "TP606") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4eb0e494-3187-44db-9d3d-24d2fbf5dea7"
-          (reference "TP706") (unit 1)
         )
       )
     )

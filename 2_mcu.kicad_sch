@@ -12270,7 +12270,7 @@
   (symbol (lib_id "Device:C_Small") (at 146.05 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0217aada-65c5-45f2-8952-534a80794b4c)
-    (property "Reference" "C235" (at 147.955 67.31 0)
+    (property "Reference" "C208" (at 147.955 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2u2 10V" (at 147.955 69.85 0)
@@ -12289,9 +12289,6 @@
     (pin "2" (uuid 247f4d8b-9c17-4f32-b03a-eea3cdec8fe9))
     (instances
       (project "ESC_R1"
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/bab0431c-ca33-4c57-9dbe-00ccaf05ca0f"
-          (reference "C235") (unit 1)
-        )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/52041989-aba3-4113-ba04-ece39669328f"
           (reference "C208") (unit 1)
         )
@@ -12589,7 +12586,7 @@
   (symbol (lib_id "Device:C_Small") (at 233.68 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b6720b1-b0e2-4dfc-a077-f0b940c74a95)
-    (property "Reference" "C217" (at 236.22 72.39 0)
+    (property "Reference" "C214" (at 236.22 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u 50V" (at 236.22 74.93 0)
@@ -12605,9 +12602,6 @@
     (pin "2" (uuid 6702f7f3-6cf1-445f-8dbe-08b0c67b8072))
     (instances
       (project "ESC_R1"
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/bab0431c-ca33-4c57-9dbe-00ccaf05ca0f"
-          (reference "C217") (unit 1)
-        )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/52041989-aba3-4113-ba04-ece39669328f"
           (reference "C214") (unit 1)
         )
@@ -13028,7 +13022,7 @@
   (symbol (lib_id "power:+3.3V") (at 218.44 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5760983c-d83e-4a28-9752-7e31d3b58f35)
-    (property "Reference" "#PWR0146" (at 218.44 60.96 0)
+    (property "Reference" "#PWR0301" (at 218.44 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 218.44 53.34 0)
@@ -13043,15 +13037,6 @@
     (pin "1" (uuid aaa3f2a2-4b06-4bcf-9fe5-f07c6545e3e8))
     (instances
       (project "ESC_R1"
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "#PWR0146") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/fe2fcbfe-ce2b-4fee-9243-f26c3dcbcd78"
-          (reference "#PWR0707") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4eb0e494-3187-44db-9d3d-24d2fbf5dea7"
-          (reference "#PWR0807") (unit 1)
-        )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/52041989-aba3-4113-ba04-ece39669328f"
           (reference "#PWR0301") (unit 1)
         )
@@ -13215,7 +13200,7 @@
   (symbol (lib_id "Device:D_Schottky_Small_Filled") (at 218.44 61.595 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7cae6660-31d5-4b20-beaf-0a0720643444)
-    (property "Reference" "D505" (at 216.535 60.325 90)
+    (property "Reference" "D301" (at 216.535 60.325 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "BAT41KFILM" (at 216.535 62.865 90)
@@ -13234,15 +13219,6 @@
     (pin "2" (uuid 4f1a5f4b-22d0-4ff5-ba10-4bcd4d41e4e2))
     (instances
       (project "ESC_R1"
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/a82201a8-9dca-4a1d-828e-2de3fb3c1adb"
-          (reference "D505") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/fe2fcbfe-ce2b-4fee-9243-f26c3dcbcd78"
-          (reference "D702") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4eb0e494-3187-44db-9d3d-24d2fbf5dea7"
-          (reference "D?") (unit 1)
-        )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/52041989-aba3-4113-ba04-ece39669328f"
           (reference "D301") (unit 1)
         )
@@ -13774,7 +13750,7 @@
   (symbol (lib_id "Device:C_Small") (at 48.26 67.945 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be53a676-3b0d-452f-a5be-d4b9057e3749)
-    (property "Reference" "C235" (at 50.165 66.675 0)
+    (property "Reference" "C201" (at 50.165 66.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2u2 10V" (at 50.165 69.215 0)
@@ -13793,9 +13769,6 @@
     (pin "2" (uuid aaee1031-1c03-4324-8cb0-0ee382cfe6b9))
     (instances
       (project "ESC_R1"
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/bab0431c-ca33-4c57-9dbe-00ccaf05ca0f"
-          (reference "C235") (unit 1)
-        )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/52041989-aba3-4113-ba04-ece39669328f"
           (reference "C201") (unit 1)
         )
@@ -13831,7 +13804,7 @@
   (symbol (lib_id "Device:C_Small") (at 90.17 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid befe60b3-a106-4c33-95ac-f9c4f24a700b)
-    (property "Reference" "C235" (at 92.075 97.79 0)
+    (property "Reference" "C211" (at 92.075 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2u2 10V" (at 92.075 100.33 0)
@@ -13850,9 +13823,6 @@
     (pin "2" (uuid 78c60d2d-7109-42c2-8cab-75ae15b62f76))
     (instances
       (project "ESC_R1"
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/bab0431c-ca33-4c57-9dbe-00ccaf05ca0f"
-          (reference "C235") (unit 1)
-        )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/52041989-aba3-4113-ba04-ece39669328f"
           (reference "C211") (unit 1)
         )
@@ -13863,7 +13833,7 @@
   (symbol (lib_id "Device:C_Small") (at 77.47 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bfbeea82-fc77-4f85-a0e1-85e0ef55ba57)
-    (property "Reference" "C235" (at 79.375 97.79 0)
+    (property "Reference" "C210" (at 79.375 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2u2 10V" (at 79.375 100.33 0)
@@ -13882,9 +13852,6 @@
     (pin "2" (uuid 2c3c9db0-7fe3-43f7-acd6-7b58c1884a82))
     (instances
       (project "ESC_R1"
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/bab0431c-ca33-4c57-9dbe-00ccaf05ca0f"
-          (reference "C235") (unit 1)
-        )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/52041989-aba3-4113-ba04-ece39669328f"
           (reference "C210") (unit 1)
         )

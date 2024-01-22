@@ -3,3 +3,4 @@
 ESC_R1-backups/
 fp-info-cache
 *.kicad_prl
+*.log

@@ -5228,9 +5228,6 @@
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/b6b0d34a-9e25-4b05-9733-a3c9d6720b5f"
           (reference "#PWR0139") (unit 1)
         )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4b568fb1-3ffb-4d91-93b3-473275569108"
-          (reference "#PWR06") (unit 1)
-        )
       )
     )
   )
@@ -5255,9 +5252,6 @@
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/b6b0d34a-9e25-4b05-9733-a3c9d6720b5f"
           (reference "#PWR0142") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4b568fb1-3ffb-4d91-93b3-473275569108"
-          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -5296,7 +5290,7 @@
   (symbol (lib_id "Device:C_Small") (at 137.16 78.105 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3050a51f-6ae3-484d-838e-6de7cd584b58)
-    (property "Reference" "C235" (at 140.97 74.93 90)
+    (property "Reference" "C301" (at 140.97 74.93 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2u2 10V" (at 141.605 81.28 90)
@@ -5315,9 +5309,6 @@
     (pin "2" (uuid 2249438b-9ea6-4092-a10a-c6f592b73919))
     (instances
       (project "ESC_R1"
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/bab0431c-ca33-4c57-9dbe-00ccaf05ca0f"
-          (reference "C235") (unit 1)
-        )
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/b6b0d34a-9e25-4b05-9733-a3c9d6720b5f"
           (reference "C301") (unit 1)
         )
@@ -5346,9 +5337,6 @@
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/b6b0d34a-9e25-4b05-9733-a3c9d6720b5f"
           (reference "#PWR0140") (unit 1)
         )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4b568fb1-3ffb-4d91-93b3-473275569108"
-          (reference "#PWR010") (unit 1)
-        )
       )
     )
   )
@@ -5374,9 +5362,6 @@
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/b6b0d34a-9e25-4b05-9733-a3c9d6720b5f"
           (reference "#PWR0141") (unit 1)
         )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4b568fb1-3ffb-4d91-93b3-473275569108"
-          (reference "#PWR08") (unit 1)
-        )
       )
     )
   )
@@ -5401,9 +5386,6 @@
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/b6b0d34a-9e25-4b05-9733-a3c9d6720b5f"
           (reference "#PWR0138") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4b568fb1-3ffb-4d91-93b3-473275569108"
-          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -5431,9 +5413,6 @@
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/b6b0d34a-9e25-4b05-9733-a3c9d6720b5f"
           (reference "C303") (unit 1)
         )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4b568fb1-3ffb-4d91-93b3-473275569108"
-          (reference "C3") (unit 1)
-        )
       )
     )
   )
@@ -5460,9 +5439,6 @@
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/b6b0d34a-9e25-4b05-9733-a3c9d6720b5f"
           (reference "R301") (unit 1)
         )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4b568fb1-3ffb-4d91-93b3-473275569108"
-          (reference "R2") (unit 1)
-        )
       )
     )
   )
@@ -5488,9 +5464,6 @@
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/b6b0d34a-9e25-4b05-9733-a3c9d6720b5f"
           (reference "C302") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4b568fb1-3ffb-4d91-93b3-473275569108"
-          (reference "C1") (unit 1)
         )
       )
     )
@@ -5527,9 +5500,6 @@
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/b6b0d34a-9e25-4b05-9733-a3c9d6720b5f"
           (reference "U301") (unit 1)
         )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4b568fb1-3ffb-4d91-93b3-473275569108"
-          (reference "U1") (unit 1)
-        )
       )
     )
   )
@@ -5554,9 +5524,6 @@
       (project "ESC_R1"
         (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/b6b0d34a-9e25-4b05-9733-a3c9d6720b5f"
           (reference "#PWR0137") (unit 1)
-        )
-        (path "/9dea2e18-5867-4ed4-a12d-7ee109225de0/4b568fb1-3ffb-4d91-93b3-473275569108"
-          (reference "#PWR013") (unit 1)
         )
       )
     )
